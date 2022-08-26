@@ -1,0 +1,31 @@
+.DataList {
+  text-align: start;
+  padding: 40px 27px;
+  background-image: url("../assets/Post.jpg");
+  background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.DataList h1 {
+  margin: 0;
+  font-size: 50px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.DataList ul {
+  margin-top: 46px;
+  max-width: 700px;
+}
+
+.DataList li {
+  line-height: 5px;
+  padding-block: 10px;
+}
+
+.DataList li::marker {
+  color: #2e2e2e;
+  font-size: 1.9rem;
+}
